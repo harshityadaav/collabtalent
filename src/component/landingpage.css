@@ -1,0 +1,392 @@
+*{
+    color: white;
+}
+.main-heading {
+    display: flex;
+    width: 100%;
+    max-width: 90%;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    margin: 110px auto 0;
+  }
+  
+  .para1{
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    height: 58px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.24px;
+    margin: 30px auto;
+  }
+  
+  .btn1{
+    display: flex;
+    padding: 12px 35px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    color: black;
+    margin: 30px auto;
+    border: none;
+    font-weight: 550;
+    cursor: pointer;
+  }
+
+  .btn1:hover{
+    background-color: #45a049;
+  }
+  
+  svg {
+    width: 32px;
+    height: 44px;
+    flex-shrink: 0;
+    display: flex;
+    margin: 40px auto;
+  }
+
+  .matters{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 38px; 
+    line-height: 40px;
+    letter-spacing: 0.025em;
+  }
+
+  .matters-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .box {
+    flex-basis: 100%;
+    max-width: 295px;
+    /* margin: 35px; */
+    
+  }
+
+  .box>h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .box>p {
+    font-size: 16px;
+  }
+
+
+
+  .photos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  .photos>img{
+    margin: 30px 30px;
+  }
+
+  
+  .interview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 100px;
+  }
+  
+  
+  .interview h1 {
+    text-align: center;
+    width: 50%;
+  }
+  .interview p {
+    text-align: center;
+    width: 65%;
+  }
+
+
+
+.areas>h1 {
+  margin-top: 50px;
+  font-size: 24px;
+  margin-left: 50px;
+  font-size: 35px;
+}
+
+.btn2 {
+  display: flex;
+  margin: 20px auto;
+  padding: 15px 30px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 15px 1px #BCD5FB;
+ cursor: pointer;
+}
+
+.btn2:hover{
+  background-color: rgba(228, 213, 213, 0.281);
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+.email{
+  text-align: center;
+  font-size: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+
+  .big-img>img{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+
+  
+  
+
+
+/* responsive code */
+  @media (max-width: 1000px) {
+      .photos{
+        display: none;
+      }
+  }
+
+  @media (max-width: 768px) {
+    .main-heading {
+      display: flex;
+      width: 100%;
+      max-width: 96%;
+      flex-direction: column;
+      flex-shrink: 0;
+      color: #FFF;
+      text-align: center;
+      justify-content: center;
+      /* font-family: DM Sans; */
+      font-size: 35px;
+      margin: 60px auto 0;
+    }
+    
+    .para1{
+      display: flex;
+      max-width: 90%;
+      flex-direction: column;
+      color: #FFF;
+      text-align: center;
+      font-family: DM Sans;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      letter-spacing: 0.24px;
+      margin: 40px auto 0;
+    }
+    
+    .btn1{
+      display: flex;
+      padding: 12px 35px;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+      border-radius: 30px;
+      background: #FFF;
+      color: black;
+      margin: 30px auto;
+      border: none;
+      font-weight: 550;
+      cursor: pointer;
+    }
+  
+    .btn1:hover{
+      background-color: #45a049;
+    }
+    
+    svg {
+      width: 32px;
+      height: 44px;
+      flex-shrink: 0;
+      display: flex;
+      margin: 40px auto;
+    }
+  
+    .matters{
+      margin-top: 50px;
+      margin-left: 30px;
+      /* font-family: DM Sans; */
+      font-size: 38px; 
+      line-height: 40px;
+      letter-spacing: 0.025em;
+    }
+  
+    .matters-box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .box {
+      flex-basis: 100%;
+      max-width: 295px;
+      /* margin: 35px; */
+      
+    }
+  
+    .box>h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .box>p {
+      font-size: 16px;
+    }
+  
+  
+  
+    
+    .interview {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      margin-top: 50px;
+    }
+    
+    
+    .interview h1 {
+      text-align: center;
+      width: 90%;
+    }
+    .interview p {
+      text-align: center;
+      width: 90%;
+    }
+  
+  
+  
+  .areas>h1 {
+    margin-top: 50px;
+    font-size: 24px;
+    margin-left: 50px;
+    font-size: 35px;
+  }
+  
+  .btn2 {
+    display: flex;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px 1px #BCD5FB;
+    cursor: pointer;
+  }
+
+  .btn2:hover{
+    background-color: rgba(228, 213, 213, 0.281);
+  }
+  .buttons{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  
+  .email{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  
+    .big-img>img{
+      width: 70%;
+      display: flex;
+      margin: auto;
+      margin-top: 70px;
+      margin-bottom: 20px;
+    }
+  
+    
+  }
+
+
+/* Styles for the footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.left {
+  flex-basis: 30%;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.right {
+  flex-basis: 70%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+}
+
+.footer p {
+  margin: 1%;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left, .right {
+    flex-basis: 100%;
+  }
+
+  .right {
+    justify-content: flex-start;
+  }
+}
