@@ -1,6 +1,5 @@
 import React from "react";
 import "./landingpage.css";
-import Frame from "../Frame.svg";
 import Elipse39 from "../assets/Ellipse39.png";
 import Elipse40 from "../assets/Ellipse40.png";
 import Elipse41 from "../assets/Ellipse41.png";
@@ -12,16 +11,15 @@ const LandingPage = () => {
   return (
     <>
       <h1 className="main-heading">
-        Are you after your dream job and want to put your best foot forward in
-        the interview?
+        Be Your Best Version of Yourself
       </h1>
       <p className="para1">
-        Prepare the smart way and get objective feedback on how you present
-        yourself using AI technology.
+       Get data driven feedback on your next presentation and interview using AI.
       </p>
       <button className="btn1">Join Waillist</button>
 
       <svg
+        className="svg"
         xmlns="http://www.w3.org/2000/svg"
         width="32"
         height="44"
@@ -84,13 +82,14 @@ const LandingPage = () => {
       </div>
 
       <h1 className="email">
-        If you are looking for a job in one of our covered categories then drop
-        your email address and receive an invite to our pilot program.
+        We give data driven feedback so you can perform at their best.
       </h1>
+      <p className="para2">Preparing for presentations and interviews brings on anxiety and stress for most of us. Practice in front of mirror. Practice with friends. How can you get an objective opinion?</p>
       <button className="btn1">Join Waitlist</button>
 
       <div class="big-img">
-        <img src={Frame} alt="" srcset="" />
+        {/* <img src={Frame} alt="" srcset="" /> */}
+        <h1>CollabTalent</h1>
       </div>
 
       <section>
@@ -98,12 +97,13 @@ const LandingPage = () => {
         <footer>
           <div className="footer">
             <div className="left">
-              <p>© 2022-2023 CollabTalent LLC</p>
+            <h1>CollabTalent</h1>
+              <p>Chicago, lllinois, USA</p>
             </div>
             <div className="right">
-              <p>Terms of Services</p>
-              <p>Privacy Policy</p>
-              <p>Cookie Setting</p>
+              <p>Terms and Conditions</p>
+              <p>Privacy</p>
+              <p>Contact Us</p>
             </div>
           </div>
         </footer>

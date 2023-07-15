@@ -1,34 +1,35 @@
 *{
-    color: white;
+    background-color: white;
 }
 .main-heading {
     display: flex;
     width: 100%;
-    max-width: 90%;
+    max-width: 95%;
     flex-direction: column;
     flex-shrink: 0;
-    color: #FFF;
+    color: blue;
     text-align: center;
     justify-content: center;
-    font-size: 50px;
+    font-size: 450%;
     margin: 110px auto 0;
+    font-weight: 550;
   }
   
   .para1{
     display: flex;
     width: 100%;
-    max-width: 600px;
+    max-width: 700px;
     height: 58px;
     flex-direction: column;
     flex-shrink: 0;
-    color: #FFF;
+    color: rgb(74, 74, 74);
     text-align: center;
     font-family: DM Sans;
-    font-size: 20px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    letter-spacing: 0.24px;
+    letter-spacing: 1px;
     margin: 30px auto;
   }
   
@@ -40,23 +41,35 @@
     flex-shrink: 0;
     border-radius: 30px;
     background: #FFF;
-    color: black;
+    color: rgb(74, 74, 74);
     margin: 30px auto;
+    /* border: 1.5px solid blue; */
     border: none;
     font-weight: 550;
     cursor: pointer;
+    font-size: 15px;
+    box-shadow: 0px 2px 15px 1px blue;
   }
 
   .btn1:hover{
-    background-color: #45a049;
+    background-color: #6fd974;
   }
   
-  svg {
+  .svg {
     width: 32px;
+    background-color: blue;
+    box-shadow: 0px 2px 10px 1px blue;
     height: 44px;
     flex-shrink: 0;
     display: flex;
     margin: 40px auto;
+    border-radius: 14px;
+    border: 2px solid rgb(74, 74, 74);
+    cursor: pointer;
+  }
+
+  .svg:hover{
+    background-color: green;
   }
 
   .matters{
@@ -65,6 +78,7 @@
     font-size: 38px; 
     line-height: 40px;
     letter-spacing: 0.025em;
+    color: blue;
   }
 
   .matters-box {
@@ -85,10 +99,12 @@
   .box>h1 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: blue;
   }
   
   .box>p {
     font-size: 16px;
+    color: rgb(74, 74, 74);
   }
 
 
@@ -116,11 +132,16 @@
   
   .interview h1 {
     text-align: center;
-    width: 50%;
+    width: 60%;
+    color: blue;
   }
   .interview p {
     text-align: center;
-    width: 65%;
+    /* width: 65%; */
+    font-size: 20px;
+    margin-left: 16%;
+    margin-right: 16%;
+    color: rgb(74, 74, 74);
   }
 
 
@@ -130,6 +151,7 @@
   font-size: 24px;
   margin-left: 50px;
   font-size: 35px;
+  color: blue;
 }
 
 .btn2 {
@@ -140,8 +162,9 @@
   background-color: transparent;
   border: 1px solid white;
   border-radius: 10px;
-  box-shadow: 0px 2px 15px 1px #BCD5FB;
+  box-shadow: 0px 2px 15px 1px #266acf;
  cursor: pointer;
+ color:rgb(74, 74, 74);
 }
 
 .btn2:hover{
@@ -165,15 +188,36 @@
   margin-right: 15%;
   margin-top: 100px;
   margin-bottom: 50px;
+  color: blue;
+}
+
+.para2{
+  text-align: center;
+  font-size: 20px;
+  margin-left: 16%;
+  margin-right: 16%;
+  color:rgb(74, 74, 74);
+  margin-top: -20px;
 }
 
 
-  .big-img>img{
+  /* .big-img>img{
     width: 70%;
     display: flex;
     margin: auto;
     margin-top: 100px;
     margin-bottom: 20px;
+  } */
+
+
+  .big-img>h1{
+    width: 70%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 100px;
+    color: blue;
+    font-size: 5rem;
   }
 
   
@@ -194,10 +238,9 @@
       max-width: 96%;
       flex-direction: column;
       flex-shrink: 0;
-      color: #FFF;
+      color: blue;
       text-align: center;
       justify-content: center;
-      /* font-family: DM Sans; */
       font-size: 35px;
       margin: 60px auto 0;
     }
@@ -206,10 +249,10 @@
       display: flex;
       max-width: 90%;
       flex-direction: column;
-      color: #FFF;
+      color:rgb(74, 74, 74);
       text-align: center;
       font-family: DM Sans;
-      font-size: 17px;
+      font-size: 20px;
       font-style: normal;
       font-weight: 300;
       line-height: normal;
@@ -338,12 +381,22 @@
   }
   
   
-    .big-img>img{
+    /* .big-img>img{
       width: 70%;
       display: flex;
       margin: auto;
       margin-top: 70px;
       margin-bottom: 20px;
+    } */
+
+    .big-img>h1{
+      /* width: 70%; */
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      margin-top: 100px;
+      color: blue;
+      font-size: 3rem;
     }
   
     
@@ -355,12 +408,16 @@
   display: flex;
   justify-content: space-between;
   height: 50px;
+  margin-bottom: 80px;
 }
 
 .left {
   flex-basis: 30%;
   padding: 10px;
   margin-left: 50px;
+}
+.left h1{
+  color: blue;
 }
 
 .right {
@@ -369,10 +426,13 @@
   justify-content: flex-end;
   align-items: center;
   padding: 10px;
+  padding-top: 50px;
 }
 
 .footer p {
-  margin: 1%;
+  margin: 3%;
+  font-size: 115%;
+  color: rgb(57, 54, 54);
 }
 
 /* Media queries for responsiveness */

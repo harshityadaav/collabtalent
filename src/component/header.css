@@ -10,19 +10,28 @@
     display: flex;
   }
   
-  .header-left img {
+  /* .header-left img {
     height: 35px;
     margin-left: 50px;
+  } */
+
+  .header-left h1 {
+    height: 35px;
+    margin-left: 50px;
+    margin-top: -10px;
+    color: blue;
+    font-size: 40px;
   }
 
   .header-left button {
     padding: 4px 20px;
     margin-top: 4px;
     margin-left: 15px;
-    border: 1.5px solid rgb(100, 100, 231);
+    border: none;
     border-radius: 10px;
     background-color: transparent;
-    color: rgb(83, 83, 230);
+    color:rgb(74, 74, 74);
+    box-shadow: 0px 2px 10px 1px blue;
   }
   
   .header-right {
@@ -35,7 +44,8 @@
     background: none;
     border: none;
     cursor: pointer;
-    color: #fff; 
+    color: black;
+    margin-top: -20px;
   } 
   
   .header-toggle i {
@@ -49,16 +59,19 @@
   .header-button {
     margin-right: 50px;
     padding: 10px 35px;
-    background-color: #ffffff;
-    color: black;
+    background-color:white;
+    color:rgb(74, 74, 74);
     border: none;
     border-radius: 30px;
     cursor: pointer;
     font-weight: 550;
+    border:none;
+    box-shadow: 0px 2px 15px 1px blue;
+    font-size: 15px;
   }
   
   .header-button:hover {
-    background-color: #45a049;
+    background-color: #61da67;
   } 
   
   /* Responsive Styles */
@@ -66,11 +79,19 @@
  @media (max-width: 768px) {
     .header {
       flex-wrap: wrap;
-      padding: 10px;
+      /* padding: 1px; */
     }
   
     .header-left {
       margin-bottom: 10px;
+    }
+
+    .header-left h1 {
+      height: 35px;
+      margin-left: 2px;
+      margin-top: -10px;
+      color: blue;
+      font-size: 35px;
     }
   
     .header-right {

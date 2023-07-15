@@ -1,9 +1,6 @@
 
-
-
 import React, { useState, useEffect, useRef } from 'react';
 import './header.css';
-import Logo from '../assets/logo.png';
 import SharePopup from './SharePopup';
 
 const Header = () => {
@@ -41,7 +38,8 @@ const Header = () => {
   return (
     <header className={`header ${isOpen ? 'open' : ''}`}>
       <div className="header-left">
-        <img src={Logo} alt="Logo" />
+        {/* <img src={Logo} alt="Logo" /> */}
+        <h1>CollabTalent</h1>
         <div className="header-beta">
           <button className="header-beta-button">Beta</button>
         </div>
