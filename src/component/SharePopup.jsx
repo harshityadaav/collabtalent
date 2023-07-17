@@ -41,7 +41,7 @@ const SharePopup = ({ url, onClose }) => {
   return (
     <div className="share-popup-overlay">
       <div className="share-popup-content">
-        <h1>Share This Platform With Your Friends</h1>
+        <h1>Share platform link with your friends</h1>
         <button
           className={`share-platform-button ${
             selectedPlatform === 'facebook' ? 'selected' : ''

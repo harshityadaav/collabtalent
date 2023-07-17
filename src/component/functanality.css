@@ -1,0 +1,120 @@
+/* functanality.css */
+
+.App {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  
+  .activityContainer {
+    margin-bottom: 20px;
+  }
+  
+  .activityLabel {
+    margin-top: 50px;
+    display: block;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: blue;
+  }
+  
+  .activitySelect {
+    font-size: 16px;
+    padding: 15px;
+    width: 100%;
+    border: 2px solid rgb(79, 74, 74);
+    border-radius: 4px;
+  }
+  
+  .activityType {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .videoContainer {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .videoPreview {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .buttonContainer {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .startButton,
+  .stopButton,
+  .saveButton {
+    font-size: 16px;
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .startButton {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .stopButton {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .saveButton {
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  .timerContainer {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .progressContainer {
+    margin-top: 40px;
+    text-align: left;
+  }
+  
+  .progressContainer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .progressEntry {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 600px) {
+  
+    .videoPreview {
+      max-height: 300px;
+    }
+
+    .startButton,
+    .stopButton,
+    .saveButton {
+      font-size: 14px;
+      padding: 6px 12px;
+    }
+  
+    .progressContainer h2 {
+      font-size: 20px;
+    }
+  }
+  

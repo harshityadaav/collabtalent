@@ -8,20 +8,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 9999;
+    z-index: 9999s234567;
   }
   
   .share-popup-content {
     background-color: #403a3a;
     border: 2px solid rgb(252, 248, 0);
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
-    max-width: 400px;
+    max-width: 350px;
+    margin-top: -50px;
   }
   
   .share-popup-content h1 {
     font-size: 20px;
     margin-bottom: 20px;
+    background-color: #403a3a;
+    color: white;
   }
   
   .share-platform-button {
